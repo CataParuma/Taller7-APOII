@@ -18,7 +18,7 @@ public class NumeroEntero {
 
 			System.out.println("¿Desea continuar? (Si = S || No = N)");
 			respuesta = sc.next();
-			
+
 		} while (respuesta.equalsIgnoreCase("S"));
 
 	}
@@ -28,7 +28,6 @@ public class NumeroEntero {
 		int cifra = num, i = 0;
 
 		do {
-
 			cifra = cifra / 10;
 			i++;
 		} while (cifra > 0);

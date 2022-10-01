@@ -2,7 +2,7 @@
 public class Principal {
 
 	public static void main(String[] args) {
-		
+
 		Bisiesto ab = new Bisiesto();
 		NumeroEntero n = new NumeroEntero();
 
